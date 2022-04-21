@@ -1,8 +1,8 @@
 // @ts-check
 
 const config = {
-  endpoint: "<Your Azure Cosmos account URI>",
-  key: "<Your Azure Cosmos account key>",
+  endpoint: "https://iothubtest1cosmos1.documents.azure.com:443/",
+  key: "dKWT2m1Vz5eTzGj4E2tpg9UdiLmWFaRVxaqnkVWThCQm5GL0xbrsUQAbwGfcOYTSpY3LmzLDR7MaZaXanxRaKA==",
   databaseId: "Tasks",
   containerId: "Items",
   partitionKey: { kind: "Hash", paths: ["/category"] }
